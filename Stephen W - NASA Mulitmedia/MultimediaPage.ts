@@ -6,6 +6,12 @@ export class MultimediaPage extends NASABase {
     private highlightsSection = By.css('.highlights');
     private nasaTVSection = By.css('.nasa-tv');
     private nasaPlusSection = By.css('.nasa-plus');
+    //xpath format
+    //export class MultimediaPage extends NASABase {
+    //private imageGalleriesSection = By.xpath('//*[@class="image-galleries"]');
+    //private highlightsSection = By.xpath('//*[@class="highlights"]');
+    //private nasaTVSection = By.xpath('//*[@class="nasa-tv"]');
+    //private nasaPlusSection = By.xpath('//*[@class="nasa-plus"]');
 
     constructor(driver: WebDriver) {
         super(driver);
